@@ -32,9 +32,7 @@ class Song
     counts = Hash.new(0)
     binding.pry
     genres.each do |genre|
-      unless genres.include?(genre)
-        
-      end
+      
     end
     counts
   end
