@@ -31,10 +31,9 @@ class Song
   def self.genre_count
     counts = Hash.new(0)
     binding.pry
-    @@genres.each do |genre|
-
-      unless @@genres.include?(genre)
-
+    genres.each do |genre|
+      unless genres.include?(genre)
+        
       end
     end
     counts
